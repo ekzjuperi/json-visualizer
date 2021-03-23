@@ -1,0 +1,27 @@
+{
+    "items": [
+        {
+            "name": "Anton",
+            "group": 4,
+            "avg": 3,
+            "debt": [
+                "Math",
+                "Russian"
+            ]
+        },
+        {
+            "name": "Leopold",
+            "group": "2",
+            "avg": 4.2,
+            "debt": [
+                "Math",
+                "Math",
+                "Russian",
+                "Math",
+                "Russian",
+                "Math",
+                "Russian"
+            ]
+        }
+    ]
+}
