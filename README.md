@@ -1,11 +1,12 @@
 # json-visualizer
-Утилита табличного вывода массива данных, хронящихся в файле формата JSON.
+A utility for visual display of an array of data stored in a JSON file.
 
-В качестве аргумента утилите передаётся путь к файлу, который в ключе items содержит массив объектов. Каждый объект имеет следующие ключи:
+As an argument, the utility is passed the path to a file that contains an array of objects in the items key. Each object has the following keys:
+name - student surname and first name (string type) 
+group - group number (string / integer type) 
+avg - average score (string / integer / real type) debt - list of debts (string / enumerated type)
 
-name — фамилия и имя студента (строчный тип)
-group — номер группы (строчный/целочисленный тип)
-avg — средний балл (строчный/целочисленный/вещественный тип)
-debt — список задолженностей (строчный/перечислительный тип)
+An example file: data.json
 
-Утилиту можно запустить с аргументом -dir указав путь до JSON файла.(по умолчанию используется корневой каталог).
+Arguments:
+    -dir argument specifying the path to the JSON file. (By default, the root directory is used).
